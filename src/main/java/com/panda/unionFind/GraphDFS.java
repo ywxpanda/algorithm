@@ -21,10 +21,11 @@ public class GraphDFS {
         stack.push(node);
         set.add(node);
 
-        if (!stack.isEmpty()) {
+        while (!stack.isEmpty()) {
             Node pop = stack.pop();
             for (Node next : pop.nexts) {
                 if (!set.contains(next)) {
+                    //下次能够继续被使用到，因为之前被弹出了，直至没有nexts
                     stack.push(pop);
                     stack.push(next);
                     set.add(next);

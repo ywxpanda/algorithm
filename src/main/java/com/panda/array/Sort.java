@@ -1,6 +1,6 @@
 package com.panda.array;
 
-import org.panda.utils.ArrayUtils;
+import com.panda.utils.ArrayUtils;
 
 import java.util.LinkedList;
 import java.util.Map;

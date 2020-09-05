@@ -1,6 +1,6 @@
 package com.panda.tree;
 
-import org.panda.utils.StringUtils;
+import com.panda.utils.StringUtils;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,9 +1,6 @@
 package com.panda.unionFind;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
 
 public class UnionFind {
 
@@ -15,6 +12,7 @@ public class UnionFind {
         }
     }
 
+
     public static class UnionSet<V> {
         // 值到节点的映射
         public Map<V, Node<V>> nodes;
@@ -23,7 +21,7 @@ public class UnionFind {
         //节点union子节点的个数
         public Map<Node<V>, Integer> sizeMap;
 
-        public UnionSet(List<V> values) {
+        public UnionSet(Collection<V> values) {
             nodes = new HashMap<>();
             parents = new HashMap<>();
             sizeMap = new HashMap<>();

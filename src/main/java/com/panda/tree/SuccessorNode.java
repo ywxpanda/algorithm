@@ -1,6 +1,5 @@
 package com.panda.tree;
 
-import org.panda.linkedlist.Node;
 
 /**
  * 寻找后继节点

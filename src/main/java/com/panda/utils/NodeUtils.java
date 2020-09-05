@@ -1,6 +1,8 @@
 package com.panda.utils;
 
-import org.panda.linkedlist.Node;
+
+
+import com.panda.linkedlist.Node;
 
 import java.util.Random;
 

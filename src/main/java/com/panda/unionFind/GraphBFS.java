@@ -20,11 +20,13 @@ public class GraphBFS {
         Set<Node> set = new HashSet<>();
         set.add(node);
         queue.add(node);
+        System.out.println(node.value);
         while (!queue.isEmpty()) {
             Node poll = queue.poll();
             System.out.println(poll.value);
             //将相邻的节点加入到queue中
             node.nexts.forEach(node1 -> {
+                //已经加入的不要在加入了
                 if (!set.contains(node1)) {
                     set.add(node1);
                     queue.add(node1);

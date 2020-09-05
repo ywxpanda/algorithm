@@ -1,8 +1,6 @@
 package com.panda.utils;
 
-
-import org.panda.linkedlist.Node;
-import org.panda.tree.TreeNode;
+import com.panda.tree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -244,7 +242,8 @@ public class TreeUtils {
 
     public static String getSpace(int num) {
         String space = " ";
-        return "" + space.repeat(Math.max(0, num));
+        //return "" + space.repeat(Math.max(0, num));
+        return "";
     }
 
 

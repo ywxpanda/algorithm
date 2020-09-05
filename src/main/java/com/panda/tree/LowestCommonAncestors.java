@@ -3,7 +3,7 @@ package com.panda.tree;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.panda.tree.SuccessorNode.TreeNode;
+import com.panda.tree.SuccessorNode.TreeNode;
 
 /**
  * 最低公共祖先节点

@@ -9,7 +9,7 @@ import java.util.Set;
  * 图，由节点和边构成
  */
 public class Graph {
-    //从哪个节点过来的 from -> node
+    //从哪个节点过来的 value -> node
     public Map<Integer,Node> nodes;
     public Set<Edge> edges;
 

@@ -1,6 +1,7 @@
 package com.panda.linkedlist;
 
-import org.panda.utils.NodeUtils;
+
+import com.panda.utils.NodeUtils;
 
 public class LinkedListOperation {
 

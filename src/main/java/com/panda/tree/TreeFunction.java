@@ -1,6 +1,6 @@
 package com.panda.tree;
 
-import org.panda.utils.CompareUtils;
+import com.panda.utils.CompareUtils;
 
 public class TreeFunction {
 
